@@ -267,3 +267,4 @@ for i in range(6):
     squares.append(i*i)
     for square in squares:
      print(square,end="")    
+    
