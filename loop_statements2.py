@@ -44,10 +44,80 @@
 # print(natural,"natural")
 
 
-a=int(input("enter a no :"))
+# a=int(input("enter a no :"))
+# b=1
+# fact=1
+# while b<=a:
+#     fact*=b
+#     b+=1
+# print(fact)       
+
+# a=int(input("enter a no :"))
+# i=1
+# while i<=10:
+#    print("%d * %d = %d" % (i, a, i * a))
+#    i+=1
+
+
+
+# a=int(input("enter a no :"))
+# rev=0
+# while a>0:
+#     d=a%10
+#     rev=(rev*10)+d
+#     a//=10
+# print(rev)
+
+
+# a=int(input("enter a no :"))
+# sum=0
+# while a>0:
+#     d=a%10
+#     a//=10
+#     sum+=d
+# print(sum)    
+
+
+# a="welcome"
+# l=len(a)
+# i=0
+# while i<l:
+#     print(a[i])
+#     i+=1
+
+
+# a="welcome"
+# l=len(a)
+# i=0
+# rev=""
+# while i<l:
+#     rev=a[i]+rev
+#     i+=1
+# print(rev)
+
+a=0
 b=1
-fact=1
-while b<=a:
-    fact*=b
-    b+=1
-print(fact)       
+i=0
+while i<=10:
+    print(a)
+    c=a+b
+    a=b
+    b=c
+    i+=1
+
+
+choice = int(input("Enter operation number: "))
+a=int(input("enter a no :"))
+b=int(input("enter a no :"))
+if choice == 1:
+        print("addition :",a+b)
+elif choice == 2:
+        print(a-b)
+elif choice == 3:
+        print(a*b)
+elif choice == 4:
+        print(a%b)
+elif choice == 5:
+        print(a/b)
+else:
+    print("invalid number")    
