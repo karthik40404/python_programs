@@ -66,3 +66,4 @@ if len(a)>=8 and len(a)<=12:
     print("valid")
 else:
      print("invalid")
+

@@ -95,29 +95,53 @@
 #     i+=1
 # print(rev)
 
-a=0
-b=1
-i=0
-while i<=10:
-    print(a)
-    c=a+b
-    a=b
-    b=c
-    i+=1
+# a=0
+# b=1
+# i=0
+# while i<=10:
+#     print(a)
+#     c=a+b
+#     a=b
+#     b=c
+#     i+=1
 
 
-choice = int(input("Enter operation number: "))
-a=int(input("enter a no :"))
-b=int(input("enter a no :"))
-if choice == 1:
-        print("addition :",a+b)
-elif choice == 2:
-        print(a-b)
-elif choice == 3:
-        print(a*b)
-elif choice == 4:
-        print(a%b)
-elif choice == 5:
-        print(a/b)
-else:
-    print("invalid number")    
+
+# while True:
+#         choice = int(input("Enter operation number: "))
+#         a=int(input("enter a no :"))
+#         b=int(input("enter a no :"))
+#         if choice == 1:
+#                 print("addition :",a+b)
+#         elif choice == 2:
+#                 print("subtraction :",a-b)
+#         elif choice == 3:
+#                 print("multiplication",a*b)
+#         elif choice == 4:
+#                 print("modulus:",a%b)
+#         elif choice == 5:
+#                 print("division",a/b)
+#         elif choice == 6:
+#                 break
+#         else :
+#                 print("invalid number")   
+
+
+
+# for i in range(10):
+#         if i==5:
+#                 continue
+#         print(i)
+
+
+# for i in range(10):
+#         if i==5:
+#                 break
+#         print(i)
+
+
+# for i in range(10):
+#         if i==5:
+#                 pass
+#         print(i)
+
