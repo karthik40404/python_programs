@@ -63,12 +63,12 @@
 # l=list(s)
 # print(l)
 
-python=set()
-mern=set()
-while True:
-    limit=int(input("enter the limit for python :",))
-    len(python)
-    limit=int(input("enter the limit for mern 5:",))
-    len(mern)
-    
+# python=set()
+# mern=set()
+# while True:
+#     limit=int(input("enter the limit for python :",))
+#     len(python)
+#     limit=int(input("enter the limit for mern :",))
+#     len(mern)
 
+    
