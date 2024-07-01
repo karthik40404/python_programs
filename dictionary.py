@@ -32,15 +32,32 @@
 
 # table
 
-dlt=[{'name':'anu','age':'23','place':'clk'},{'name':'kanu','age':'24','place':'tvm'},{'name':'manu','age':'25','place':'kozi'},{'name':'anoop','age':'29','place':'alp'}]
-for i in range(0):
-    name=input('name')
-    age=int(input("age"))
-    place=input('place')
-    dlt.append({'name':name,'age':age,'place':place})
-print("{:<10}{:<10}{:<10}".format("name","age","place"))
-print('_'*25)
-for i in dlt:
-    print("{:<10}{:<10}{:<10}".format(i["name"],i["age"],i["place"]))
+# dlt=[{'name':'anu','age':30,'place':'clk'},{'name':'kanu','age':24,'place':'tvm'},{'name':'manu','age':45,'place':'kozi'},{'name':'anoop','age':29,'place':'alp'}]
+# for i in range(0):
+#     name=input('name')
+#     age=int(input("age"))
+#     place=input('place')
+#     dlt.append({'name':name,'age':age,'place':place})
+# print("{:<10}{:<10}{:<10}".format("name","age","place"))
+# print('_'*25)
+# for i in dlt:
+#     print("{:<10}{:<10}{:<10}".format(i["name"],i["age"],i["place"]))
+# print('\tage>30')
+# print("{:<10}{:<10}".format("name","age"))
+# print('_'*15)
+# for i in dlt:
+#     if i['age']>=30:
+#         print("{:<10}{:<10}".format(i["name"],i["age"]))
 
+# print('\tage<30')
+# print("{:<10}{:<10}".format("name","age"))
+# print('_'*15)
+# for i in dlt:
+#     if i['age']<30:
+#         print("{:<10}{:<10}".format(i["name"],i["age"]))
 
+num={0:'zero',1:'one',2:'two',3:'three'}
+a=int(input("enter a number :"))
+for i in num:
+    
+    
