@@ -56,8 +56,27 @@
 #     if i['age']<30:
 #         print("{:<10}{:<10}".format(i["name"],i["age"]))
 
-num={0:'zero',1:'one',2:'two',3:'three'}
-a=int(input("enter a number :"))
-for i in num:
-    
-    
+# num = {0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine'}
+# a = input("Enter a number: ")  # No need to convert to int
+
+# output = []
+# for digit in a:
+#     if digit.isdigit() and int(digit) in num:
+#         output.append(num[int(digit)])
+#     else:
+#         print("Invalid input")
+#         break
+# else:
+#     print(" ".join(output))
+
+num = {0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine'}
+a = input("Enter a number: ") 
+
+for digit in a:
+    if digit.isdigit() in num:
+        print(num[int(digit)], end=' ')
+    else:
+        print("Invalid input")
+        break
+else:
+    print() 
