@@ -1,6 +1,8 @@
 from reg import register
 from tab import table
-
+from upd import update
+from dele import delete
+from ext import exit
 data = []
 
 while True:
@@ -10,28 +12,9 @@ while True:
         register(data)
     elif ch == 2:
         table(data)
-    # elif ch == 3:
-    #     id_to_update = int(input("Enter the ID to update: "))
-    #     for record in data:
-    #         if record['id'] == id_to_update:
-    #             record['name'] = input("Enter new Name: ")
-    #             record['age'] = int(input("Enter new Age: "))
-    #             record['place'] = input("Enter new Place: ")
-    #             print("Record updated")
-    #             break
-    #     else:
-    #         print("ID not found")
-    # elif ch == 4:
-    #     id_to_delete = int(input("Enter the ID to delete: "))
-    #     for record in data:
-    #         if record['id'] == id_to_delete:
-    #             data.remove(record)
-    #             print("Record deleted")
-    #             break
-    #     else:
-    #         print("ID not found")
-    # elif ch == 5:
-    #     print("Exiting the program.")
-    #     break
-    # else:
-    #     print("Invalid choice, please try again.")
+    elif ch == 3:
+        update(data)
+    elif ch == 4:
+        delete(data)
+    elif ch == 5:
+        exit(data)
