@@ -1,8 +1,9 @@
 def register(data):
-    id=input("Enter ur ID: ")
-    name = input("Enter ur Name: ")
-    age = input("Enter ur age: ")
-    place= input("Enter ur place: ")
-    data.append([id,name,age,place])
-    print("added")
+    id = int(input("Enter your ID: "))
+    name = input("Enter your Name: ")
+    age = int(input("Enter your age: "))
+    place = input("Enter your place: ")
+    data.append({'id': id, 'name': name, 'age': age, 'place': place})
+    print("Added")
+
     
