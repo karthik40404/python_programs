@@ -16,7 +16,7 @@ def update(data):
             record['place'] = new_place or record['place']
 
             print("Record updated")
-            break
+            break 
     else:
         print("ID not found")
 
