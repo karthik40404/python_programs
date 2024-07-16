@@ -17,3 +17,12 @@ class departmenthead(manager,employee):
 class hr_manger(departmenthead):
     def manage(self):
         print('managing')
+
+sanu=employee()
+sanu.log()
+
+manu=hr_manger()
+manu.manage()
+
+ani=departmenthead()
+manu.add()
