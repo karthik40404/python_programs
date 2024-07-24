@@ -1,6 +1,6 @@
 import sqlite3
 
-con=sqlite3.connect('python_programs/database/demo1.db') #connection
+con=sqlite3.connect('python_programs/database/demo2.db') #connection
 
 try:
     con.execute("create table student(age int,name text,mark real)") #create table
@@ -15,7 +15,7 @@ for i in range (students):
     con.execute('insert into student (age,name,mark) values(?,?,?)',(age,name,mark))
 con.commit()
 
-data=con.execute('select*from student')
+data=con.execute('select*from student where name=? or age=?',(name,age,))#to know the specific key
 print("{:<10}{:<10}{:<10}".format("age","name","mark"))
 print('_'*25)
 for i in data:
