@@ -34,17 +34,16 @@
 # Set the height of the pyramid
 
 
-# for i in range(5):
-#     for j in range(5 - i - 1):
+# for i in range(7):
+#     for j in range(5 - i + 1):
 #         print(' ', end='')
-#     for k in range(2 * i + 1):
+#     for k in range(2 * i - 1):
 #         print('*', end='')
 #     print()
 
 
-# num_lines = 7
 
-# for i in range(num_lines):
+# for i in range(7):
 #     if i == 0:
 #         print('*' * 5)
 #     elif i == 1:
@@ -61,7 +60,12 @@
 #         print('*' * 1)
 
 
-# num_lines = 7
 # pattern = [5, 4, 6, 3, 2, 5, 1]
-# for count in pattern:
-#     print('*' * count)
+# for i in pattern:
+#     print('*' * i)
+
+# for i in range(3):
+#     for j in range (4):
+#         a=65
+#         print(chr(i+j),end="")
+#     print()
